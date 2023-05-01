@@ -1,0 +1,66 @@
+body{
+    background-image: url("hanging.jpg");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 25px;
+}
+html{overflow-x: hidden;}
+
+div{
+    background-color: black;
+    opacity: 60%;
+    width: 60%;
+    align-content: center;
+    border-radius: 10px 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.custo{
+    color: white;
+}
+.ipfield{
+border-radius: 50px;
+font-size: 18px;
+padding: 10px;
+background-color: black;
+border-color: white;
+border-width: 3px;
+opacity: 70%;
+color: white;
+}
+.ipfield:hover {
+background-color: #eba16a;
+}
+.button{
+background-color: green;
+border-radius: 50px;
+font-size: 21px;
+color: white;
+padding: 20px;
+padding-left: 30px;
+padding-right: 35px;
+border-width: 3px;
+}
+.button:hover {
+border-color: green;
+background-color: transparent;
+}
+.button1:hover {
+border-color: blue;
+background-color: transparent;
+}
+.button1{
+background-color: blue;
+border-radius: 50px;
+font-size: 21px;
+color: white;
+padding: 20px;
+padding-left: 30px;
+padding-right: 35px;
+border-width: 3px;
+}
+::placeholder{
+color: white;
+}
